@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Yarn / PnP
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# 환경 변수
+.env*
+
+# 빌드 결과 / 캐시
+dist/
+build/
+coverage/
+logs/
+tmp/
+.nyc_output/
+.cache/
+.parcel-cache/
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Prisma
+*.db
+*.sqlite
+*.sqlite-journal
+
+# PostgreSQL
+*.dump
+*.sql
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Vercel
+.vercel
+
+# VSCode
+.vscode/
+test.http
+scripts/
+uploads/
+
+# macOS
+.DS_Store
+
+# 인증서
+*.pem
